@@ -1,11 +1,11 @@
 package dev.paintilya.taxcalculator.BLL.Model;
 
 public class TaxBracket {
-    private float min, max, rate;
+    private double min, max, rate;
 
     public TaxBracket() {}
 
-    public TaxBracket(float min, float max, float rate) {
+    public TaxBracket(double min, double max, double rate) {
         this.min = min;
         this.max = max;
         this.rate = rate;
@@ -20,27 +20,27 @@ public class TaxBracket {
                 '}';
     }
 
-    public float getMin() {
+    public double getMin() {
         return min;
     }
 
-    public void setMin(float min) {
+    public void setMin(double min) {
         this.min = min;
     }
 
-    public float getMax() {
+    public double getMax() {
         return max;
     }
 
-    public void setMax(float max) {
+    public void setMax(double max) {
         this.max = max;
     }
 
-    public float getRate() {
+    public double getRate() {
         return rate;
     }
 
-    public void setRate(float rate) {
+    public void setRate(double rate) {
         this.rate = rate;
     }
 }

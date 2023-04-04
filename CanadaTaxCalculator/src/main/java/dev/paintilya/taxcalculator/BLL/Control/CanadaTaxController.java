@@ -15,11 +15,11 @@ public class CanadaTaxController {
         taxBrackets.add(new TaxBracket(49020, 98040, 0.205f));
         taxBrackets.add(new TaxBracket(98040, 151978, 0.26f));
         taxBrackets.add(new TaxBracket(151978, 216511, 0.29f));
-        taxBrackets.add(new TaxBracket(216511, Float.MAX_VALUE, 0.33f));
+        taxBrackets.add(new TaxBracket(216511, Double.MAX_VALUE, 0.33f));
     }
 
-    public float calculateTax(float netIncome) {
-        float tax = 0;
+    public double calculateTax(double netIncome) {
+        double tax = 0;
         for (TaxBracket bracket : taxBrackets) {
             if (netIncome <= bracket.getMax()) {
                 tax += (netIncome - bracket.getMin()) * bracket.getRate();

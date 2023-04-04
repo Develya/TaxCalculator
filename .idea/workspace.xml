@@ -4,41 +4,28 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="07cc94e8-6e94-4ee6-a6c9-beb4baf07a89" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/jarRepositories.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/CanadaTaxCalculator.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/CanadaTaxCalculator/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/CanadaTaxCalculator/src/main/java/dev/paintilya/taxcalculator/API/CanadaService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/CanadaTaxCalculator/src/main/java/dev/paintilya/taxcalculator/BLL/Control/CanadaTaxController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/CanadaTaxCalculator/src/main/java/dev/paintilya/taxcalculator/BLL/Model/TaxBracket.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/CanadaTaxCalculator/src/main/java/dev/paintilya/taxcalculator/DAL/ITaxBracketDAO.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/CanadaTaxCalculator/src/main/java/dev/paintilya/taxcalculator/DAL/InMemoryDAO.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/CanadaTaxCalculator/src/main/java/dev/paintilya/taxcalculator/DAL/MongoAtlasDAO.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/CanadaTaxCalculator/src/main/java/dev/paintilya/taxcalculator/FEL/AppDriver.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/GlobalTaxCalculator.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/GlobalTaxCalculator/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/GlobalTaxCalculator/src/main/java/dev/paintilya/taxcalculator/API/GlobalService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/GlobalTaxCalculator/src/main/java/dev/paintilya/taxcalculator/BLL/Control/GlobalTaxController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/GlobalTaxCalculator/src/main/java/dev/paintilya/taxcalculator/BLL/Model/Transaction.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/GlobalTaxCalculator/src/main/java/dev/paintilya/taxcalculator/DAL/CsvTransactionDAO.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/GlobalTaxCalculator/src/main/java/dev/paintilya/taxcalculator/DAL/ITransactionDAO.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/GlobalTaxCalculator/src/main/java/dev/paintilya/taxcalculator/FEL/AppDriver.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/QuebecTaxCalculator.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/QuebecTaxCalculator/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/QuebecTaxCalculator/src/main/java/dev/paintilya/taxcalculator/API/QuebecService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/QuebecTaxCalculator/src/main/java/dev/paintilya/taxcalculator/BLL/Control/QuebecTaxController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/QuebecTaxCalculator/src/main/java/dev/paintilya/taxcalculator/BLL/Model/TaxBracket.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/QuebecTaxCalculator/src/main/java/dev/paintilya/taxcalculator/DAL/AlwaysDataSqlDAO.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/QuebecTaxCalculator/src/main/java/dev/paintilya/taxcalculator/DAL/ITaxBracketDAO.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/QuebecTaxCalculator/src/main/java/dev/paintilya/taxcalculator/DAL/InMemoryDAO.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/QuebecTaxCalculator/src/main/java/dev/paintilya/taxcalculator/FEL/AppDriver.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/TaxCalculator.iml" afterDir="false" />
+    <list default="true" id="07cc94e8-6e94-4ee6-a6c9-beb4baf07a89" name="Changes" comment="Initial commit">
+      <change afterPath="$PROJECT_DIR$/GlobalTaxCalculator/src/main/resources/transactions.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CanadaTaxCalculator/src/main/java/dev/paintilya/taxcalculator/BLL/Control/CanadaTaxController.java" beforeDir="false" afterPath="$PROJECT_DIR$/CanadaTaxCalculator/src/main/java/dev/paintilya/taxcalculator/BLL/Control/CanadaTaxController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CanadaTaxCalculator/src/main/java/dev/paintilya/taxcalculator/BLL/Model/TaxBracket.java" beforeDir="false" afterPath="$PROJECT_DIR$/CanadaTaxCalculator/src/main/java/dev/paintilya/taxcalculator/BLL/Model/TaxBracket.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CanadaTaxCalculator/src/main/java/dev/paintilya/taxcalculator/FEL/AppDriver.java" beforeDir="false" afterPath="$PROJECT_DIR$/CanadaTaxCalculator/src/main/java/dev/paintilya/taxcalculator/FEL/AppDriver.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CanadaTaxCalculator/target/classes/dev/paintilya/taxcalculator/BLL/Control/CanadaTaxController.class" beforeDir="false" afterPath="$PROJECT_DIR$/CanadaTaxCalculator/target/classes/dev/paintilya/taxcalculator/BLL/Control/CanadaTaxController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CanadaTaxCalculator/target/classes/dev/paintilya/taxcalculator/BLL/Model/TaxBracket.class" beforeDir="false" afterPath="$PROJECT_DIR$/CanadaTaxCalculator/target/classes/dev/paintilya/taxcalculator/BLL/Model/TaxBracket.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CanadaTaxCalculator/target/classes/dev/paintilya/taxcalculator/FEL/AppDriver.class" beforeDir="false" afterPath="$PROJECT_DIR$/CanadaTaxCalculator/target/classes/dev/paintilya/taxcalculator/FEL/AppDriver.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/GlobalTaxCalculator.iml" beforeDir="false" afterPath="$PROJECT_DIR$/GlobalTaxCalculator.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/GlobalTaxCalculator/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/GlobalTaxCalculator/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/GlobalTaxCalculator/src/main/java/dev/paintilya/taxcalculator/BLL/Control/GlobalTaxController.java" beforeDir="false" afterPath="$PROJECT_DIR$/GlobalTaxCalculator/src/main/java/dev/paintilya/taxcalculator/BLL/Control/GlobalTaxController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/GlobalTaxCalculator/src/main/java/dev/paintilya/taxcalculator/DAL/CsvTransactionDAO.java" beforeDir="false" afterPath="$PROJECT_DIR$/GlobalTaxCalculator/src/main/java/dev/paintilya/taxcalculator/DAL/CsvTransactionDAO.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/GlobalTaxCalculator/src/main/java/dev/paintilya/taxcalculator/DAL/ITransactionDAO.java" beforeDir="false" afterPath="$PROJECT_DIR$/GlobalTaxCalculator/src/main/java/dev/paintilya/taxcalculator/DAL/ITransactionDAO.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/GlobalTaxCalculator/src/main/java/dev/paintilya/taxcalculator/FEL/AppDriver.java" beforeDir="false" afterPath="$PROJECT_DIR$/GlobalTaxCalculator/src/main/java/dev/paintilya/taxcalculator/FEL/AppDriver.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/QuebecTaxCalculator/src/main/java/dev/paintilya/taxcalculator/BLL/Control/QuebecTaxController.java" beforeDir="false" afterPath="$PROJECT_DIR$/QuebecTaxCalculator/src/main/java/dev/paintilya/taxcalculator/BLL/Control/QuebecTaxController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/QuebecTaxCalculator/src/main/java/dev/paintilya/taxcalculator/BLL/Model/TaxBracket.java" beforeDir="false" afterPath="$PROJECT_DIR$/QuebecTaxCalculator/src/main/java/dev/paintilya/taxcalculator/BLL/Model/TaxBracket.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/QuebecTaxCalculator/src/main/java/dev/paintilya/taxcalculator/FEL/AppDriver.java" beforeDir="false" afterPath="$PROJECT_DIR$/QuebecTaxCalculator/src/main/java/dev/paintilya/taxcalculator/FEL/AppDriver.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/QuebecTaxCalculator/target/classes/dev/paintilya/taxcalculator/BLL/Control/QuebecTaxController.class" beforeDir="false" afterPath="$PROJECT_DIR$/QuebecTaxCalculator/target/classes/dev/paintilya/taxcalculator/BLL/Control/QuebecTaxController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/QuebecTaxCalculator/target/classes/dev/paintilya/taxcalculator/BLL/Model/TaxBracket.class" beforeDir="false" afterPath="$PROJECT_DIR$/QuebecTaxCalculator/target/classes/dev/paintilya/taxcalculator/BLL/Model/TaxBracket.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/QuebecTaxCalculator/target/classes/dev/paintilya/taxcalculator/FEL/AppDriver.class" beforeDir="false" afterPath="$PROJECT_DIR$/QuebecTaxCalculator/target/classes/dev/paintilya/taxcalculator/FEL/AppDriver.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -78,8 +65,8 @@
     "node.js.selected.package.eslint": "(autodetect)",
     "node.js.selected.package.tslint": "(autodetect)",
     "project.structure.last.edited": "Modules",
-    "project.structure.proportion": "0.0",
-    "project.structure.side.proportion": "0.0",
+    "project.structure.proportion": "0.15",
+    "project.structure.side.proportion": "0.2",
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
@@ -96,8 +83,16 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1680559502250</updated>
-      <workItem from="1680559503252" duration="6215000" />
+      <workItem from="1680559503252" duration="8488000" />
     </task>
+    <task id="LOCAL-00001" summary="Initial commit">
+      <created>1680572942895</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1680572942895</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -105,5 +100,7 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
+    <MESSAGE value="Initial commit" />
+    <option name="LAST_COMMIT_MESSAGE" value="Initial commit" />
   </component>
 </project>
